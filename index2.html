@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>my page title</title>
+</head>
+<body>
+    <section>
+        <h1>Mumbai<h1>
+        <h2>Temperature</h2>
+        <span id='tempValue'></span><sup>o</sup>C
+        <br/>
+        <br/>
+        <button id='btnRefresh'>Refresh</button>
+    </section>
+<script>
+		window.alert('say hello');
+</script>
+
+
+<script>
+    document.getElementById('tempValue').innerHTML = '26';
+    document.getElementById('btnRefresh').addEventListener('click', function(event) {
+    document.getElementById('tempValue').innerHTML = '32' },false);
+			</script>
+</body>
+</html>
